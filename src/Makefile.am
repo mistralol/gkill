@@ -3,7 +3,7 @@
 
 bin_PROGRAMS=gkill
 
-perror_SOURCE=gkill.c
+gkill_SOURCE=gkill.c
 
 
 
