@@ -11,6 +11,8 @@ AC_PROG_LIBTOOL
 
 AX_COMPILER_FLAGS([WARN_CFLAGS],[WARN_LDFLAGS])
 
+AC_CONFIG_HEADERS(src/config.h)
+
 AC_CHECK_FUNCS([asprintf strndupa],,AC_DEFINE([_GNU_SOURCE], [], [Linux requires _GNU_SOURCE for asprintf]))
 
 AC_OUTPUT(Makefile src/Makefile)

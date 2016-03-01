@@ -10,4 +10,6 @@ config.status
 libtool
 .deps
 src/gkill
+src/config.h
+src/stamp-h1
 *.o
