@@ -1,0 +1,7 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: gkill
+Source: https://github.com/mistralol/gkill
+
+Files: *
+License: GPL
+Copyright: 2016 James Stevenson <james@stev.org>
